@@ -1,0 +1,352 @@
+@font-face {
+    font-family: GothamBook;
+    src: url(gothambook.ttf);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	max-width: 1400px;
+	margin: auto;
+	box-shadow: 0px 17px 20px -10px;
+}
+
+.header {
+	height: 150px;
+	width: 1400px;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	box-shadow: 0px 2px 34px -18px;
+}
+
+.logo {
+	float: left;
+	padding: 35px;
+}
+
+.navbar {
+	font-family: GothamBook;
+	font-size: 18px;
+}
+
+.navlink {
+	float: left;
+	color: #939598;
+	padding: 78px 12px 0px 12px;
+}
+
+.navbutton {
+	float: left;
+	height: 20px;
+	color: #fff;
+	background-color: #FF8300;
+	border-radius: 6px;
+	padding: 8px 16px 4px 16px;
+	margin: 70px 0px 0px 18px;
+}
+
+.smicons {
+    padding: 76px 22px 0px 4px;
+    float: right;
+}
+
+.iconimg {
+    float: left;
+    padding: 0px 10px 0px 10px;
+}
+
+.slider {
+	height: 600px;
+	margin-top: 150px;
+	background-color: #35647E;
+}
+
+.replace {
+	height: 540px;
+	width: 540px;
+	margin: auto;
+	padding: 30px;
+}
+
+.steps {
+    width: 1264px;
+    margin: auto;
+    padding-top: 36px;
+}
+
+.step {
+	font-family: GothamBook;
+	float: left;
+	width: 296px;
+	padding: 10px;
+}
+
+.stepimg {
+	height: 300px;
+	width: 296px;
+}
+
+.stephead {
+	height: 86px;
+	width: 296px;
+}
+
+.stepnumber {
+	float: left;
+	padding: 14px 14px 14px 0px;
+}
+
+.stepname {
+    font-size: 24px;
+    padding-top: 28px;
+}
+
+.stepcontent {
+	height: 92px;
+	width: 296px;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.vids {
+    width: 1264px;
+    height: 92px;
+    padding-top: 36px;
+}
+
+.vid {
+	float: left;
+	padding: 5px;
+}
+
+.vidimg {
+	height: 113px;
+	width: 200px;
+}
+
+.vidhead {
+	width: 200px;
+}
+
+.vidname {
+    font-size: 18px;
+    padding-top: 18px;
+}
+
+.vidcaption {
+	width: 200px;
+	font-size: 14px;
+}
+
+.playnow {
+	height: 140px;
+}
+
+.playnowbutton {
+	font-family: GothamBook;
+	height: 42px;
+    width: 300px;
+    margin: auto;
+    margin-top: 46px;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    background-color: #FF8300;
+    border-radius: 10px;
+    padding: 16px 0px 6px 0px;
+}
+
+.squareslider {
+	height: 250px;
+	background-color: #35647D;
+}
+
+.mission {
+	font-family: GothamBook;
+	height: 400px;
+}
+
+.shocking {
+	float: left;
+	height: 400px;
+	width: 428px;
+	color: #fff;
+	text-align: center;
+	background-color: #FF8300;
+}
+
+.percent {
+	font-size: 48px;
+	padding-top: 60px;
+}
+
+.percent2 {
+	font-size: 120px;
+	padding-top: 60px;
+}
+
+.shelter {
+    font-size: 20px;
+    padding: 0px 52px 12px 52px;
+}
+
+.sheltercontent {
+	font-size: 24px;
+    padding: 0px 52px 0px 52px;
+    line-height: 28px;
+}
+
+.shockingcontent {
+    font-size: 36px;
+    padding: 10px 30px 0px 30px;
+}
+
+.statement {
+	float: right;
+	height: 400px;
+	width: 972px;
+	color: #fff;
+	background-color: #3AB0C8;
+}
+
+.statementname {
+    font-size: 48px;
+    padding: 42px 52px 12px 52px;
+}
+
+.statementcontent {
+	font-size: 20px;
+    padding: 0px 52px 0px 52px;
+    line-height: 36px;
+}
+
+.core {
+	font-family: GothamBook;
+	height: 360px;
+}
+
+.corevalues {
+	float: left;
+	height: 360px;
+	width: 1000px;
+}
+
+.corename {
+	font-size: 48px;
+    padding: 42px 52px 12px 52px;
+	color: #35647D;
+}
+
+.corecontent {
+	font-size: 12px;
+    padding: 0px 52px 0px 52px;
+    line-height: 14px;
+	color: #666666;
+}
+
+.coreimg {
+	float: right;
+	height: 360px;
+	width: 300px;
+    padding: 20px 80px 0px 0px;
+}
+
+.inspiration {
+	font-family: GothamBook;
+    height: 400px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.statement2 {
+	float: left;
+	height: 400px;
+	width: 972px;
+	color: #fff;
+	background-color: #35647D;
+}
+
+.statement3 {
+	height: 500px;
+	color: #fff;
+	background-color: #FF8300;
+}
+
+.shocking2 {
+	float: right;
+	height: 400px;
+	width: 428px;
+	color: #fff;
+	text-align: center;
+	background-color: #CEDE00;
+}
+
+.circleslider {
+	height: 344px;
+	background-color: #3AB0C8;
+}
+
+.circles {
+	height: 180px;
+	background-color: #35647D;
+}
+
+
+
+
+/* css rules for javascript flip tile */
+..stage {
+  -webkit-perspective: 1000; 
+}
+
+.flashcard {
+  height: 398px;  
+  width: 428px; 
+  border: 1px solid gray; 
+  box-shadow: 2px 2px 2px #000;
+  -webkit-transform-style: preserve-3d;  
+  transition: all .5s;               
+  -webkit-transition: all .5s;
+}
+
+.flipped, .back {
+  transform: rotateX(360deg);
+  -webkit-transform: rotateX(360deg);  
+}
+
+.front, .back {
+  height: 398px;          
+  width: 428px;
+  position: absolute;    
+  text-align: center;   
+  background-color: green;
+  -webkit-backface-visibility: hidden;       
+}
+
+.front p, .back p {
+  margin-top: 25%;       
+  font-size: 3em;
+}

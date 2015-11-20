@@ -1,0 +1,127 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: goodpoint_web_v3.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: inches
+Artboard Dimensions: 14.2222 in x 37.2407 in
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+PANTONE 151 C (Lab)
+PANTONE 2955 C (Lab)
+PANTONE 389 C (Lab)
+PANTONE 631 C (Lab)
+PANTONE 7699 C (Lab)
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Gotham Bold (OTF)
+Gotham-Book (Type 1)
+Gotham-Medium (Type 1)
+Gotham Narrow Book (OTF)
+Gotham Narrow Medium (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+/Users/nicoleschiele1/Desktop/Screen Shot 2015-10-09 at 8.59.39 AM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 2788K, 838 by 852 pixels
+Dimensions: 216.745 by 220.366 points 
+Resolution: 278.373 by 278.373 pixels per inch
+
+
+/Users/nicoleschiele1/Desktop/big_red_logo-300x125.psd
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 146K, 300 by 125 pixels
+Dimensions: 57.011 by 23.755 points 
+Resolution: 378.872 by 378.872 pixels per inch
+
+
+/Users/nicoleschiele1/Desktop/stock-photo-group-of-happy-young-people-jumping-on-the-beach-289400843.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 453K, 450 by 344 pixels
+Dimensions: 1065.765 by 814.718 points 
+Resolution: 30.401 by 30.401 pixels per inch
+
+
+/Users/nicoleschiele1/Desktop/stock-photo-teamwork-three-young-architects-working-on-a-project-237302122.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 421K, 450 by 320 pixels
+Dimensions: 1093.262 by 777.431 points 
+Resolution: 29.636 by 29.636 pixels per inch
+
+
+/Users/nicoleschiele1/Desktop/Screen Shot 2015-10-01 at 11.16.41 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 4521K, 1388 by 834 pixels
+Dimensions: 292.31 by 232.283 points 
+Resolution: 341.883 by 258.512 pixels per inch
+
+
+/Users/nicoleschiele1/Desktop/Screen Shot 2015-10-01 at 11.16.41 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 4521K, 1388 by 834 pixels
+Dimensions: 292.31 by 232.283 points 
+Resolution: 341.883 by 258.512 pixels per inch
+
+
+/Users/nicoleschiele1/Desktop/Screen Shot 2015-10-01 at 11.16.09 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 1290K, 734 by 450 pixels
+Dimensions: 274.581 by 222.631 points 
+Resolution: 192.467 by 145.533 pixels per inch
+
+
+/Users/nicoleschiele1/Desktop/Screen Shot 2015-10-01 at 11.15.11 PM
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 1998K, 850 by 602 pixels
+Dimensions: 232.314 by 217.596 points 
+Resolution: 263.437 by 199.195 pixels per inch
+
+
+/Users/nicoleschiele1/Desktop/stock-photo-multiracial-young-people-holding-hands-in-a-circle-171340034.jpg
+Type: RGB
+Bits per Pixel: 24
+Channels: 3
+Size: 421K, 450 by 320 pixels
+Dimensions: 1093.262 by 777.431 points 
+Resolution: 29.636 by 29.636 pixels per inch

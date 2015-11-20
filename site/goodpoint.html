@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="goodpoint.css">
+	<!-- bxSlider jQuery library (served from Google) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="/js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/v1.0.16/dist/jquery.flip.min.js"></script>
+
+	<script type="text/javascript">
+		var count = 0;
+		var arrStats = ["Hi, Carl", "ignore", "this", "javascript"];
+		var arrSize = 4;
+		var data = {};
+		var baseUrl = "localhost/GoodPointGame/public/index.php/";
+		data.Limit = arrSize;
+		/* AJAX call to pull stats from database on server */
+		/*	 $.ajax({
+				url: 'localhost/GoodPointGame/laravel/public/index.php/website/getStats',  //Server script to process data
+				method: "POST",
+				data: $.param(data),
+				success: function(data){
+					console.log("ajax call return:");
+					console.log(data);
+					arrStats = data.Data; // the return will be a json encoded response
+				},
+				error: function(data){
+				console.log("error recording social interaction");
+				console.log(data);
+				}
+			});
+			*/
+			// this needs a little bit of work to make the effect better
+      $(document).ready(function() {
+			setInterval(function() {
+			$('.flashcard').toggleClass('flipped');
+			count = count % arrSize;
+			document.getElementById("stat").innerHTML = arrStats[count];
+			count = count + 1;
+			},3000);
+		});
+ </script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<img src="GPlogo.png" alt="GoodPoint" width="413" height="80">
+			</div>
+			<div class="navbar">
+				<div class="navlink">
+					<a href="#home">Home</a>
+				</div>
+				<div class="navlink">
+					<a href="#about">About</a>
+				</div>
+				<div class="navlink">
+					<a href="#WHOA">WHOA</a>
+				</div>
+				<div class="navlink">
+					<a href="#partner">Partner</a>
+				</div>
+				<div class="navlink">
+					<a href="#gpgame">Good Point Game</a>
+				</div>
+				<div class="navlink">
+					<a href="#contact">Contact</a>
+				</div>
+				<div class="navbutton">
+					<a href="#join">Let's Play!</a>
+				</div>
+			</div>
+			<div class="smicons">
+				<div class="iconimg">
+					<a href="#facebook"><img src="GPfacebook.png" alt="Facebook" width="20" height="20">
+				</div>
+				<div class="iconimg">
+					<a href="#twitter"><img src="GPtwitter.png" alt="Twitter" width="20" height="20">
+				</div>
+				<div class="iconimg">
+					<a href="#email"><img src="GPemail.png" alt="email" width="20" height="20">
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="slider">
+			<div class="replace">
+				<img src="GPsliderIMG.png" alt="GoodPoint" width="540" height="540">
+			</div>	
+			<!--slider images
+			<ul class="bxslider">
+				<li><img src="image1.png" /></li>
+				<li><img src="image2.png" /></li>
+				<li><img src="image3.png" /></li>
+				<li><img src="image4.png" /></li>
+			</ul>
+			-->
+		</div>
+		<div class="instructions">
+			<div class="steps">
+				<div class="step">
+					<div class="stepimg">
+						<img src="GPstep1.png" alt="GoodPoint" width="296" height="300">
+					</div>
+					<div class="stephead">
+						<div class="stepnumber">
+							<img src="GPnumber1.png" alt="Step 1" width="52" height="52">
+						</div>
+						<div class="stepname">
+							Recognize Good
+						</div>
+					</div>
+					<div class="stepcontent">
+					Be mindful of the good all around you! Whether it's a good idea, vibe, or deed, appreciate the goodness!
+					</div>
+				</div>
+				<div class="step">
+					<div class="stepimg">
+						<img src="GPstep2.png" alt="GoodPoint" width="296" height="300">
+					</div>
+					<div class="stephead">
+						<div class="stepnumber">
+							<img src="GPnumber2.png" alt="Step 2" width="52" height="52">
+						</div>
+						<div class="stepname">
+							Give Card
+						</div>
+					</div>
+					<div class="stepcontent">
+						Share the card, share the love - give the gift of gratitude.
+					</div>
+				</div>
+				<div class="step">
+					<div class="stepimg">
+						<img src="GPstep3.png" alt="GoodPoint" width="296" height="300">
+					</div>
+					<div class="stephead">
+						<div class="stepnumber">
+							<img src="GPnumber3.png" alt="Step 3" width="52" height="52">
+						</div>
+						<div class="stepname">
+							Text Code
+						</div>
+					</div>
+					<div class="stepcontent">
+						When we share goodness, we both come away better. It's a win+win - we both get a Good Point.
+					</div>
+				</div>
+				<div class="step">
+					<div class="stepimg">
+						<img src="GPstep1.png" alt="GoodPoint" width="296" height="300">
+					</div>
+					<div class="stephead">
+						<div class="stepnumber">
+							<img src="GPnumber4.png" alt="Step 4" width="52" height="52">
+						</div>
+						<div class="stepname">
+							Pay It Forward
+						</div>
+					</div>
+					<div class="stepcontent">
+						Now it's your turn to be the giver! Pay it forward!
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="playnow">
+				<div class="playnowbutton">
+					<a href="#playnow">LET'S PLAY!</a>
+				</div>
+			</div>
+		</div>
+		<div class="squareslider">
+		</div>
+		<div class="mission">
+			<div class="shocking">
+				<div class="stage">
+					<div class="flashcard">
+						<div id="stat" class="front">
+							FRONT
+						</div>
+					</div>  
+				</div>
+			</div>
+			<div class="statement">
+				<div class="statementname">
+					Vision
+				</div>
+				<div class="statementcontent">
+					A world where wellbeing is the fundamental unit of wellth
+				</div>
+				<div class="statementname">
+					Mission
+				</div>
+				<div class="statementcontent">
+					To address socioeconomic inequality by creating a digital currency that elevates personal, interpersonal, and community wellbeing and helps people meet their basic needs
+				</div>
+			</div>
+		</div>
+		<div class="mission">
+			<div class="statement2"> 
+				<div class="statementname">
+					SHELTER
+				</div>
+				<div class="sheltercontent">
+					We've redefined basic needs with the acronym, SHELTER
+				</div>
+				<div class="shelter">
+					Shelter<br>
+					Health<br>
+					Education<br>
+					Love<br>
+					Technology<br>
+					Expression<br>
+					Recreation<br>
+				</div>
+				<div class="statementcontent">
+					Your GoodPoints will buy you goods that help to get SHELTER
+				</div>
+			</div>
+			<div class="shocking2">
+				<div class="percent">
+					People-Powered
+					Positive Feedback
+				</div>
+			<div class="shockingcontent">
+					Kindness creates happiness. 
+					Happiness leads to kindness.
+			</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="core">
+			<div class="corevalues">
+				<div class="corename">
+					Core Values
+				</div>
+				<div class="corecontent">
+					Core values are developed on the three levels that  WHOA and GoodPoint aim to promote wellbeing. Each level is broken down from as internal and external. 
+<ul>
+<li>Personal</li>
+<ul><li>Internal - GOOD - We are all good people.</li>
+<li>External - MEANING - We internalize information to create meaning. </li></ul></ul>
+
+<ul>
+<li>Interpersonal (Social)</li>
+<ul><li>Internal - FEEDBACK - We grow from and are guided by feedback</li>
+<li>External - CONNECTION - We build connection through positive experiences.</li></ul></ul>
+<ul>
+<li>Community (System)</li>
+<ul><li>Internal - BALANCE - We strive to maintain and restore balance in our world.</li>
+<li>External - CHANGE - Be the change! (We can change our world by putting our good thoughts and words into action!)</li></ul></ul>
+
+To the right is a diagram of the 6 core values (orange) and 12 emergent core values that stem from the synthesis of the core value neighbors. The first set of emergent core values (blue) results from the combination of each pair of core values. For example, ask yourself, "What emerges when you combine the idea of GOOD with the idea of MEANING?" We believe that is VIRTUE.  The final set of emergent core values (green) arise in a second pass around and are the synthesis of the blue emergent core values, rooted in the core value (orange) from which they emerge. For example, ask yourself, "What is the emerges from the synthesis of VIRTUE and KNOWLEDGE, rooted in MEANING?" We believe that is WISDOM.
+
+				</div>
+			</div>
+			<div class="coreimg">
+				<img src="GPcoreIMG.png" alt="GoodPoint" width="316" height="320">
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<!--
+		<div class="inspiration">
+			<div class="statement3">
+				<div class="statementname">
+					Inspiration
+				</div>
+				<div class="statementcontent">
+					Good ideas only have value when people share them with one another. Here are some of the ideas that have inspired us!
+					<div class="vids">
+				<div class="vid">
+					<div class="vidimg">
+						<iframe width="200" height="113" src="https://www.youtube.com/embed/dE1DuBesGYM" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="vidhead">
+						<div class="vidname">
+							Jane McGonigal
+						</div>
+					</div>
+					<div class="vidcaption">
+					Games can better our world!
+					</div>
+				</div>
+				<div class="vid">
+					<div class="vidimg">
+						<iframe width="200" height="113" src="https://www.youtube.com/embed/2U-tOghblfE" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="vidhead">
+						<div class="vidname">
+							Nikolas Christakis
+						</div>
+					</div>
+					<div class="vidcaption">
+					Happiness is contagious! Share it!
+					</div>
+				</div>
+				<div class="vid">
+					<div class="vidimg">
+						<iframe width="200" height="113" src="https://www.youtube.com/embed/OLHh9E5ilZ4" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="vidhead">
+						<div class="vidname">
+							Matt Ridley
+						</div>
+					</div>
+					<div class="vidcaption">
+					Sharing makes everything better!
+					</div>
+				</div>
+				<div class="vid">
+					<div class="vidimg">
+						<iframe width="200" height="113" src="https://www.youtube.com/embed/M1o3FS0awtk" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="vidhead">
+						<div class="vidname">
+							Nic Marks
+						</div>
+					</div>
+					<div class="vidcaption">
+					Let's measure what matters!
+					</div>
+				</div>
+				<div class="vid">
+					<div class="vidimg">
+						<iframe width="200" height="113" src="https://www.youtube.com/embed/_p_GKCr8rq8" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="vidhead">
+						<div class="vidname">
+							Matthieu Ricard
+						</div>
+					</div>
+					<div class="vidcaption">
+					Altruism is the endgame goal!
+					</div>
+				</div>
+				<div class="vid">
+					<div class="vidimg">
+						<iframe width="200" height="113" src="https://www.youtube.com/embed/cb-ts8fUhB8" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="vidhead">
+						<div class="vidname">
+							Paul Kemp-Robertson
+						</div>
+					</div>
+					<div class="vidcaption">
+					Let's create currency we can trust!
+					</div>
+				</div>
+			</div>	
+				</div>
+			</div>
+		</div>
+		-->
+		<div class="circleslider">
+		</div>
+		<div class="circles">
+		</div>
+		<div class="header">
+			<div class="logo">
+				<img src="GPlogo.png" alt="GoodPoint" width="413" height="80">
+			</div>
+			<div class="navbar">
+				<div class="navlink">
+					<a href="#home">Home</a>
+				</div>
+				<div class="navlink">
+					<a href="#about">About</a>
+				</div>
+				<div class="navlink">
+					<a href="#WHOA">WHOA</a>
+				</div>
+				<div class="navlink">
+					<a href="#partner">Partner</a>
+				</div>
+				<div class="navlink">
+					<a href="#gpgame">Good Point Game</a>
+				</div>
+				<div class="navlink">
+					<a href="#contact">Contact</a>
+				</div>
+				<div class="navbutton">
+					<a href="#join">Let's Play!</a>
+				</div>
+			</div>
+			<div class="smicons">
+				<div class="iconimg">
+					<a href="#facebook"><img src="GPfacebook.png" alt="Facebook" width="20" height="20">
+				</div>
+				<div class="iconimg">
+					<a href="#twitter"><img src="GPtwitter.png" alt="Twitter" width="20" height="20">
+				</div>
+				<div class="iconimg">
+					<a href="#email"><img src="GPemail.png" alt="email" width="20" height="20">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
