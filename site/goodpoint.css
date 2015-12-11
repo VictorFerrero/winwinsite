@@ -284,9 +284,16 @@ a {
 .statement2 {
 	float: left;
 	height: 400px;
-	width: 972px;
+	width: 100%;
 	color: #fff;
 	background-color: #35647D;
+}
+
+.statement2 img {
+	margin-left: 100px;
+    margin-top: 15px;
+    width: 1182px;
+    height: 368px;
 }
 
 .statement3 {
